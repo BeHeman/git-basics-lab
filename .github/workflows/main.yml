@@ -11,5 +11,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: List Repo Files
+      - name: List Files
         run: ls -la
