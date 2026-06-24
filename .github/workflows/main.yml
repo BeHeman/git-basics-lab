@@ -1,0 +1,9 @@
+name: Hello World
+on: push
+
+jobs:
+  HelloWorld:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello and Welcome to GH-900 session"
