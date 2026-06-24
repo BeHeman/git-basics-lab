@@ -7,3 +7,9 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello and Welcome to GH-900 session"
+
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: List Repo Files
+        run: ls -la
